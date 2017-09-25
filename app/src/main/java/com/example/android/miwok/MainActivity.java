@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         NumbersClickListener clickListener = new NumbersClickListener();
         TextView numbersView= (TextView) findViewById(R.id.numbers);
-        numbersView.setOnClickListener(prueba2);
+        numbersView.setOnClickListener(pruebadesdejuane);
     }
 
 //    public void openNumbersList(View view) {
