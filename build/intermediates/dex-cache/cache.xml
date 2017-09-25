@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\juane\GitHub\AndroidStudio\miwok\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\juane\Github\AndroidStudio\miwok\miwok\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c810a5aaef542fc4246b28879cc77747ea4d659c">
+        <dex dex="C:\Users\juane\Github\AndroidStudio\miwok\miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0651d13f81986f5bd9d894b9d725d080c665ee3f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\juane\Github\AndroidStudio\miwok\miwok\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\juane\GitHub\AndroidStudio\miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_464887a5c3ac39824c638b80cc42168e24f53d20\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\juane\GitHub\AndroidStudio\miwok\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="353b20311b3cb5ee6cd3a01a595c07585cd8da8f">
-        <dex dex="C:\Users\juane\GitHub\AndroidStudio\miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_b88ce37f405e66da30612ffb38ab2c6efc27d07c\classes.dex" />
+        <dex dex="C:\Users\juane\Github\AndroidStudio\miwok\miwok\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e4c408c0f9aaeb45d191e21cd23a356e8c53c729\classes.dex" />
     </item>
 
 </items>

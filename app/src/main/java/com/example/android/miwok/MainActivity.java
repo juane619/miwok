@@ -30,15 +30,45 @@ public class MainActivity extends AppCompatActivity {
         // Set the content of the activity to use the activity_main.xml layout file
         setContentView(R.layout.activity_main);
 
-        NumbersClickListener clickListener = new NumbersClickListener();
         TextView numbersView= (TextView) findViewById(R.id.numbers);
-        numbersView.setOnClickListener(pruebadesdejuane);
+        TextView colorsView= (TextView) findViewById(R.id.colors);
+        TextView familyView= (TextView) findViewById(R.id.family);
+        TextView phrasesView= (TextView) findViewById(R.id.phrases);
+
+
+        numbersView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent numbersIntent= new Intent(MainActivity.this, NumbersActivity.class);
+                startActivity(numbersIntent);
+            }
+        });
+
+        colorsView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent colorsIntent= new Intent(MainActivity.this, ColorsActivity.class);
+                startActivity(colorsIntent);
+            }
+        });
+
+        familyView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent familyIntent= new Intent(MainActivity.this, FamilyActivity.class);
+                startActivity(familyIntent);
+            }
+        });
+
+        phrasesView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent phrasesIntent= new Intent(MainActivity.this, PhrasesActivity.class);
+                startActivity(phrasesIntent);
+            }
+        });
     }
 
-//    public void openNumbersList(View view) {
-//        Intent intent= new Intent(this, NumbersActivity.class);
-//        startActivity(intent);
-//    }
 
     public void openPhrasesList(View view) {
         Intent intent= new Intent(this, PhrasesActivity.class);
