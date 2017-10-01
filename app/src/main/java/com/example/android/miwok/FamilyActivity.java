@@ -14,23 +14,17 @@ public class FamilyActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list);
 
         ArrayList<Word> words= new ArrayList<>(10);
-        words.add(new Word("Father", "әpә"));
-        words.add(new Word("Mother", "әṭa"));
-        words.add(new Word("Son", "angsi"));
-        words.add(new Word("Daughter", "tune"));
-        words.add(new Word("Older brother", "taachi"));
-        words.add(new Word("Younger brother", "chalitti"));
-        words.add(new Word("Older sister", "teṭe"));
-        words.add(new Word("Younger sister", "kolliti"));
-        words.add(new Word("Grandmother", "ama"));
-        words.add(new Word("Grandfather", "paapa"));
+        words.add(new Word("Father", "әpә", R.drawable.family_father));
+        words.add(new Word("Mother", "әṭa", R.drawable.family_mother));
+        words.add(new Word("Son", "angsi", R.drawable.family_son));
+        words.add(new Word("Daughter", "tune", R.drawable.family_daughter));
+        words.add(new Word("Older brother", "taachi", R.drawable.family_older_brother));
+        words.add(new Word("Younger brother", "chalitti", R.drawable.family_younger_brother));
+        words.add(new Word("Older sister", "teṭe", R.drawable.family_older_sister));
+        words.add(new Word("Younger sister", "kolliti", R.drawable.family_younger_sister));
+        words.add(new Word("Grandmother", "ama", R.drawable.family_grandmother));
+        words.add(new Word("Grandfather", "paapa", R.drawable.family_grandfather));
 
-
-//        for(String aux: words){
-//            TextView tw= new TextView(this);
-//            tw.setText(aux);
-//            rootView.addView(tw);
-//        }
 
         WordAdapter adapter = new WordAdapter(this, words);
 
